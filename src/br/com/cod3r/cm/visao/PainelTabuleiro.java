@@ -21,9 +21,9 @@ public class PainelTabuleiro extends JPanel {
 			
 			SwingUtilities.invokeLater(() -> {
 				if(e.isGanhou()) {
-					JOptionPane.showMessageDialog(this, "Ganhou :)");
+					JOptionPane.showMessageDialog(this, "Você venceu :)");
 				} else {
-					JOptionPane.showMessageDialog(this, "Perdeu :(");
+					JOptionPane.showMessageDialog(this, "Você Perdeu :(");
 				}
 				
 				tabuleiro.reiniciar();
